@@ -94,6 +94,7 @@
               </table>
         </div>
     </div>
+//javascript//
 $(document).ready(function ()
 {
     alert("have a great energetic day!!!");
