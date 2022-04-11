@@ -77,8 +77,8 @@
                 <thead>
                   <tr>
                     <th scope="col">SNo</th>
-                    <th scope="col">Item Title</th>
-                    <th scope="col">Item Description</th> 
+                    <th scope="col">Task Title</th>
+                    <th scope="col">Task Description</th> 
                     <th scope="col">Actions</th> 
                   </tr>
                 </thead>
@@ -86,7 +86,7 @@
                   <tr>
                     <th scope="row">1</th>
                     <td>Get some Coffee</td>
-                    <td>You need coffee as you are a coder</td> 
+                    <td>You need coffee as you are a programmer</td> 
                     <td><button class="btn btn-sm btn-primary">Delete</button></td> 
                   </tr>
                   
@@ -94,9 +94,10 @@
               </table>
         </div>
     </div>
-
-    
-   
+$(document).ready(function ()
+{
+    alert("have a great energetic day!!!");
+});   
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
